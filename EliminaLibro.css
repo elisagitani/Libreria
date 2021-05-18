@@ -1,0 +1,13 @@
+﻿body {
+    background-color:lightcyan;
+}
+h1 {
+    color: rebeccapurple;
+    font-family: 'Comic Sans MS';
+    text-align:center;
+}
+form{
+    display:flex;
+    justify-content:center;
+}
+

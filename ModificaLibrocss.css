@@ -1,0 +1,30 @@
+﻿body {
+    background-color:antiquewhite;
+}
+header {
+    display: flex;
+    align-items: center;
+    /*justify-content:center;*/
+}
+
+h1 {
+    display: inline;
+    color: rebeccapurple;
+    font-family: 'Comic Sans MS';
+}
+
+li {
+    background-color: beige;
+}
+
+li, a {
+    text-decoration: none;
+    color: crimson;
+}
+.Barra:hover {
+    background-color: lightpink;
+}
+
+.Barra:visited {
+    color: green;
+}

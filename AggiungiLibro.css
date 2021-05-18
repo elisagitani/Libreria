@@ -1,0 +1,39 @@
+﻿body {
+    background-color: antiquewhite;
+}
+header {
+    display: flex;
+    align-items: center;
+    /*justify-content:center;*/
+}
+
+h1 {
+    display: inline;
+    color: rebeccapurple;
+    font-family: 'Comic Sans MS';
+}
+
+ a {
+    text-decoration: none;
+    color: crimson;
+    background-color:greenyellow;
+}
+.Barra:hover {
+    background-color: lightpink;
+}
+.Barra:visited{
+    color:green;
+}
+#ElemSx{
+    flex:50%;
+}
+#ElemDx {
+    flex: 50%;
+}
+
+    .container1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+

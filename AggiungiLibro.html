@@ -3,42 +3,42 @@
 <head>
     <meta charset="utf-8" />
     <title>AggiungiLibri</title>
-    
+    <link href="AggiungiLibro.css" rel="stylesheet" />
 </head>
 <body>
     <header>
+        <img src="kisspng-school-library-reading-librarian-stacked-books-5aae514c9afff2.3780571515213735166349.png" width="200" height="100" />
         <h1>Benvenuti nella sezione "Aggiungi Libri"</h1>
     </header>
+    <br />
     <nav>
-        <ul>
-            <li><a href="HomePage.html">Home</a></li>
-            <li><a href="AggiungiLibro.html">Aggiungi un libro</a></li>
-        </ul>
+        <center>
+            <a class="Barra" href="HomePage.html">Home |</a>
+            <a class="Barra" href="AggiungiLibro.html">&nbsp;Aggiungi un libro</a>
+        </center>
     </nav>
 
     <main>
         <br />
         <form>
+            <div class="container1">
             <label>Titolo</label>
-            <input type="text" placeholder="Inserisci il titolo del libro" required="required" />
-            <br /> <br />
+            <input id="ElemSx" type="text" placeholder="Inserisci il titolo del libro" required="required" />
             <label>Autore</label>
-            <input type="text" placeholder="Es. Luigi Pirandello" required="required" />
+            <input id="ElemDx" type="text" placeholder="Es. Luigi Pirandello" required="required" />
             <br />
-            <br />
-            <label><input type="radio" value="1" name="Disponibilità" required="required" />Disponibile</label>
-            <label><input type="radio" value="2" name="Disponibilità" required="required" />Non Disponibile</label>
-            <br />
+            <label><input id="ElemSx" type="radio" value="1" name="Disponibilità" required="required" />Disponibile</label>
+            <label><input id="ElemDx" type="radio" value="2" name="Disponibilità" required="required" />Non Disponibile</label>
             <br />
             <label>Codice ISBN</label>
-            <input type="text" placeholder="Inserisci il cod. ISBN" required="required" pattern="[0-9]{13}" title="Massimo 13 cifre" />
+            
+            <input id="ElemSx" type="text" placeholder="Inserisci il cod. ISBN" required="required" pattern="[0-9]{13}" title="Massimo 13 cifre" />
             <br />
-            <br />
-            <input type="submit" value="Aggiungi Libro" />
-
+            <input id="ElemDx" type="submit" value="Aggiungi Libro" />
+            </div>
         </form>
 
-        <img src="https://t3.ftcdn.net/jpg/01/43/38/84/360_F_143388434_BkJR9R1Uck13MwnYt49APHXeujTqufgw.jpg" />
+        
     </main>
 
 </body>
